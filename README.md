@@ -8,6 +8,6 @@ To run:
 `` gcc filesys.c -o filesys `pkg-config fuse --cflags --libs` ``
 
 2.)Mount the file system with :
-./filesys -f [mount point] //mount point is the directory to mount the filesystem to eg. root
+`./filesys -f [mount point] `//mount point is the directory to mount the filesystem to eg. root
 
-3.)to run it open/cd into the filesytem and run commands via terminal or via he filebrowser.
+3.)to run it open/cd into the filesytem and run commands via terminal or via the filebrowser.
