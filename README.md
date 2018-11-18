@@ -5,7 +5,7 @@ Multi tier folders. Allows for creation, reading, deleleting and editing of file
 To run:
 
 1.) First Compile with :
-`gcc filesys.c -o filesys ``pkg-config fuse --cflags --libs```
+`` gcc filesys.c -o filesys `pkg-config fuse --cflags --libs` ``
 
 2.)Mount the file system with :
 ./filesys -f [mount point] //mount point is the directory to mount the filesystem to eg. root
